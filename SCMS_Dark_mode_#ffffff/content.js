@@ -61,6 +61,7 @@ const targetElements = [
     {selector: '#mainContent em', textColor: '#ffffff'},
     {selector: '#mainContent ul.list-group>li.list-group-item', backgroundColor: 'black'},
     {selector: '#mainContent div.col-md-10 span', textColor: 'red'},
+    {selector: '#lblNotes td span', backgroundColor: 'black', textColor: '#ffff99'},
     {selector: '#lblTicketDescription label', textColor: 'white'},
     {selector: '#lblTicketDescription s', textColor: '#ff6666'},
     {selector: '#lblTicketDescription', textColor: 'white'},

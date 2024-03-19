@@ -97,6 +97,7 @@ const targetElements = [
     {selector: '#DESCRIPTION td p', textColor: 'white'},
     {selector: '#DESCRIPTION td strong', textColor: 'white'},
     {selector: '#DESCRIPTION td div', textColor: 'white', backgroundColor: 'black'},
+    {selector: '#lblNotes td span', backgroundColor: 'black', textColor: '#ffff99'},
     {selector: '#lblNotes p a', backgroundColor: 'black', color: '#ffbf00'},
     {selector: '#lblNotes div', backgroundColor: 'black', textColor: '#ffa366'},
     {selector: '#lblNotes ul', backgroundColor: 'black', textColor: 'white'},

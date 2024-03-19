@@ -97,6 +97,7 @@ const targetElements = [
     {selector: '#DESCRIPTION td p', textColor: 'white'},
     {selector: '#DESCRIPTION td strong', textColor: 'white'},
     {selector: '#DESCRIPTION td div', textColor: 'white', backgroundColor: 'black'},
+    {selector: '#lblNotes td span', backgroundColor: 'black', textColor: '#ffff99'},
     {selector: '#lblNotes div', backgroundColor: 'black', textColor: '#ffa366'},
     {selector: '#lblNotes ul', backgroundColor: 'black', textColor: 'white'},
     {selector: '#lblNotes ul li', backgroundColor: 'black', textColor: 'white'},
@@ -137,7 +138,6 @@ const targetElements = [
     {selector: '#collapse_2 ol', textColor: 'white'},
     {selector: '#collapse_2 i', textColor: 'red'},
     {selector: '#collapse_2 a', textColor: '#66ffcc'},
-
     {selector: 'table tbody tr td b', textColor: 'white'},
     {selector: 'table.grid', backgroundColor: 'black'},
     {selector: 'table.grid tbody tr td p strong', textColor: '#8fc800'},
