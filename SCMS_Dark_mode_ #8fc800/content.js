@@ -66,8 +66,8 @@ const targetElements = [
     {selector: '#lblTicketDescription', textColor: 'white'},
     {selector: '#lblTicketDescription div', background: 'black'},
     {selector: '#lblTicketDescription', borderColor: '#8fc800'},
-    {selector: '#lblTicketDescription p a', textColor: '#8fc800'},
-    {selector: '#lblTicketDescription a', textColor: '#8fc800'},
+    {selector: '#lblTicketDescription p a', textColor: '#66ffcc'},
+    {selector: '#lblTicketDescription a', textColor: '#66ffcc'},
     {selector: '#lblTicketDescription p code', textColor: '#ffa366'},
     {selector: '#lblTicketDescription p', textColor: 'white'},
     {selector: '#lblTicketDescription p em', textColor: 'white'},
@@ -92,7 +92,7 @@ const targetElements = [
     {selector: '#TicketDescription p', textColor: 'white'},
     {selector: '#TicketDescription strong', textColor: '#8fc800'},
     {selector: '#TicketDescription br', textColor: 'white'},
-    {selector: '#TicketDescription a', textColor: 'white'},
+    {selector: '#TicketDescription a', textColor: '#66ffcc'},
     {selector: '#TicketDescription b', textColor: '#8fc800'},
     {selector: '#DESCRIPTION td p', textColor: 'white'},
     {selector: '#DESCRIPTION td strong', textColor: 'white'},
@@ -120,7 +120,6 @@ const targetElements = [
     {selector: '#lblNotes li font', backgroundColor: 'black', textColor: 'white'},
     {selector: '#lblNotes font', backgroundColor: 'black', color: 'white'},
     {selector: '#lblNotes font u', backgroundColor: 'black', color: 'white'},
-    {selector: '#lblNotes p a', backgroundColor: 'black', color: '#8fc800'},
     {selector: '#NOTES td p', textColor: 'white'},
     {selector: '#NOTES td strong', textColor: 'white'},
     {selector: '#NOTES td div', textColor: 'white', backgroundColor: 'black'},
@@ -137,6 +136,8 @@ const targetElements = [
     {selector: '#collapse_2 p u', textColor: '#8fc800'},
     {selector: '#collapse_2 ol', textColor: 'white'},
     {selector: '#collapse_2 i', textColor: 'red'},
+    {selector: '#collapse_2 a', textColor: '#66ffcc'},
+
     {selector: 'table tbody tr td b', textColor: 'white'},
     {selector: 'table.grid', backgroundColor: 'black'},
     {selector: 'table.grid tbody tr td p strong', textColor: '#8fc800'},
@@ -389,7 +390,6 @@ const targetElements = [
     {selector: '.col-sm-7 a img', content: 'url("https://brand.sellercloud.com/download/sc_logo_horizontal_white_stroke_rgb.png"', width: "auto", paddingTop: "5px"},
     {selector: '.inner-page', color: '#262626'},
     {selector: '.navigation', color: '#333', borderColor: '#8FC800'},
-
 ];
 
 
