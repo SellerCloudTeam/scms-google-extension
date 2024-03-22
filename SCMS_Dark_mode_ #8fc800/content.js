@@ -121,7 +121,8 @@ const targetElements = [
     {selector: '#lblNotes li font', backgroundColor: 'black', textColor: 'white'},
     {selector: '#lblNotes font', backgroundColor: 'black', color: 'white'},
     {selector: '#lblNotes font u', backgroundColor: 'black', color: 'white'},
-    {selector: '#NOTES td p', textColor: 'white'},
+    {selector: '#lblNotes p', backgroundColor: 'black', color: 'white'},
+    {selector: '#NOTES td p', backgroundColor: 'black',  textColor: 'white'},
     {selector: '#NOTES td strong', textColor: 'white'},
     {selector: '#NOTES td div', textColor: 'white', backgroundColor: 'black'},
     {selector: '#collapse_2 strong', textColor: '#8fc800'},
@@ -482,12 +483,8 @@ const observer = new MutationObserver(mutations => {
     });
 });
 
-// Configuration for the observer
 const config = { childList: true, subtree: true };
-
-// Observe the entire document
 observer.observe(document.documentElement, config);
 
-// Hide content and apply styles
 hideContent();
 applyStylesAndRevealContent();

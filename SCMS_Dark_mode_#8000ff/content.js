@@ -123,6 +123,7 @@ const targetElements = [
     {selector: '#lblNotes font', backgroundColor: 'black', color: 'white'},
     {selector: '#lblNotes font u', backgroundColor: 'black', color: 'white'},
     {selector: '#lblNotes p sub', backgroundColor: 'black', color: 'white'},
+    {selector: '#lblNotes p', backgroundColor: 'black', color: 'white'},
     {selector: '#NOTES td p', textColor: 'white'},
     {selector: '#NOTES td strong', textColor: 'white'},
     {selector: '#NOTES td div', textColor: 'white', backgroundColor: 'black'},
