@@ -88,6 +88,7 @@ const targetElements = [
     {selector: '#lblTicketDescription p big code', textColor: 'green'},
     {selector: '#lblTicketDescription font', textColor: 'white'},
     {selector: '#lblTicketDescription font u', textColor: 'white'},
+    {selector: '#lblTicketDescription u', textColor: 'white'},
     {selector: '#lblTicketDescription li u', textColor: 'white'},
     {selector: '#lblTicketDescription blockquote div', textColor: 'white'},
     {selector: '#TicketDescription p', textColor: 'white'},
