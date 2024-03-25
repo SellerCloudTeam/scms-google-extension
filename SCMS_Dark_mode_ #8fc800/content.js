@@ -19,11 +19,12 @@ window.onload = function() {
     ul.pureCssMenu li.active, ul.pureCssMenu li.active a.active {
         color: #8fc800 !important
     }`;
-
 document.head.appendChild(active_button);
 };
 
 const targetElements = [  
+
+    {selector: 'td a', textColor: '#8fc800'},
 
     {selector: '.page', color: '#262626'},
     {selector: '.page nav', background: 'black'},
@@ -154,7 +155,6 @@ const targetElements = [
     {selector: 'table td div', textColor: 'white', backgroundColor: 'black'},
     {selector: 'table td blockquote', textColor: 'white'},
     {selector: 'table td p b i', textColor: 'white'},
-    {selector: 'table table tbody tr td a', backgroundColor: '#666666'},
     {selector: 'table table tbody tr td span', textColor: 'white', backgroundColor: '#333'},
     {selector: 'table#gvUsers thead tr th', backgroundColor: '#333333'},    
     {selector: '.footer .wrapper p a', textColor: '#8fc800'},
@@ -371,7 +371,6 @@ const targetElements = [
     {selector: '#pnl1 fieldset>div ', textColor: 'red'},
     {selector: '#SpanPriority', filter: 'invert(100%)'},
     {selector: 'td', backgroundColor: 'black', textColor: 'white'},
-    {selector: 'td a', textColor: '#66ffcc'},
     {selector: 'td b label', textColor: 'red'},
     {selector: '#spanID', textColor: 'red'},
     {selector: '#AAutoLogin img', filter: 'invert(100%)'},
